@@ -1,0 +1,141 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background: rgb(218, 213, 213);
+}
+.navbar{
+    height:90px ;
+    width:100% ;
+    background: rgb(250, 249, 249);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 5px 10px #7c7b7b;
+}
+.linkcont{
+    width:600px ;
+    height:6opx ;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.linkcont a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+.login{
+    
+    padding: 10px;
+    height: 35px;
+    width: 105px;
+    background: rgb(64, 202, 202);
+    border-radius: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    color: white;
+    padding-right: 0;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+    background: blue;
+    overflow: hidden;
+    padding-top: 13px;
+    
+}
+.icon i{
+    font-size: 35px;
+}
+.login:hover{
+    cursor: pointer;
+    background: rgb(1,1,85);
+}
+.login:hover .icon{
+    background: rgb(72,191,255);
+}
+.kyc{
+    text-align: center;
+    font-weight: 400;
+}
+.kyc .emoji{
+    font-size: 25px;
+}
+.kyc .learn{
+    font-weight: 600;
+}
+.herosection{
+    margin-top: 6px;
+    height: 500px;
+    width: 100%;
+    background: white;
+    box-shadow: 0px -3px 10px #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.herosection .left{
+    height: 80%;
+    width: 50%;
+    background: white;
+    padding-left: 80px;
+}
+.herosection .right{
+    height: 80%;
+    width: 50%;
+    background: white;
+}
+.herosection .left img{
+    height: 70px;
+}
+.herosection .left .heading{
+    font-size: 50px;
+}
+.para{
+    font-size: 20px;
+}
+.btn{
+    padding-left: 30px;
+    margin-top: 50px;
+    height: 40px;
+    width: 250px;
+    background: black;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+}
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    border: 2px black solid;
+    background: white;
+    color: black;
+}
+.right img{
+    position: relative;
+    right: -100px;
+    height: 100%;
+    transition: all 0.2s ease-in-out;
+}
+.right img:hover{
+    transform: scale(1.1);
+    right: 0px;
+}
